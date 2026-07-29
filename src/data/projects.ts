@@ -127,5 +127,56 @@ export const projects: Project[] = [
       ],
       whyItMatters: "Adds software distribution and security breadth to the portfolio, demonstrating CLI building and desktop licensing controls distinct from standard web-app patterns."
     }
+  },
+  {
+    name: "Rythmiq",
+    tagline: "Spotify-inspired music streaming Android app with a Node.js backend",
+    stack: ["Kotlin", "Jetpack Compose", "Room", "Retrofit", "ExoPlayer", "Node.js", "Express.js", "Supabase", "Last.fm API"],
+    highlight: "Designed a 5-layer personalized recommendation scoring system and ExoPlayer-based gapless playback queue preloading",
+    github: "https://github.com/GauravFrr/Rythmiq",
+    caseStudy: {
+      context: "Natively streaming audio smoothly on Android with robust personalization requires careful orchestration. Rythmiq is a full-stack, Spotify-inspired music streaming application built to demonstrate mobile audio engine integration and custom scoring algorithm design.",
+      problem: "Providing real-time music discovery from millions of tracks while maintaining zero-latency gapless queue preloading and persistent background audio control on Android.",
+      approach: "Developed a native Kotlin app with Jetpack Compose, backed by a Node.js/Express API. Utilized Room for local SQLite caching and ExoPlayer for background playback. Integrated JioSaavn music metadata and Last.fm API for similar-artist graph traversal, combined via a custom multi-weighted recommendation engine.",
+      decisions: [
+        {
+          title: "5-Layer Weighted Recommendation Scoring",
+          description: "Created a backend recommendation algorithm weighting followed artists at 40%, historical play counts/similarity at 30%, and language/genre matches at 15% to deliver a hyper-personalized feed."
+        },
+        {
+          title: "ExoPlayer Queue Preloading",
+          description: "Implemented proactive audio segment caching and media session connectors to preload the next track in the queue, achieving instant gapless transitions."
+        }
+      ],
+      whatWentWrong: [
+        "Overlapping Audio Streams: Rapid track-skipping caused playback overlap and background audio resource leaks, fixed by introducing strict state synchronization using Kotlin Flows and player debouncing."
+      ],
+      whyItMatters: "Demonstrates advanced Android systems engineering, native media controller APIs, custom algorithm design, and full-stack backend orchestration."
+    }
+  },
+  {
+    name: "Atlas",
+    tagline: "Autonomous production-grade AI earning agent running a digital freelancing business",
+    stack: ["Python", "FastAPI", "SQLite", "Playwright", "Gemini API", "Razorpay API"],
+    highlight: "Built a self-healing scheduler loop and a 3-pass quality control review pipeline for autonomous operations",
+    github: "https://github.com/GauravFrr/Atlas",
+    caseStudy: {
+      context: "Building autonomous agents that go beyond toy scripts requires production-grade systems design. Atlas is an autonomous agent designed to run as a full digital agency—discovering leads, generating custom websites/chatbots, and processing payments with zero human intervention.",
+      problem: "Creating a reliable, self-improving agent system that can run 24/7, handle client discovery and outreach, and manage webhook-driven payments safely without crash loops.",
+      approach: "Built a Python-based agent utilizing FastAPI and SQLite under the Repository Pattern. Configured an asynchronous scheduler loop with fallback LLM routing (Gemini 2.5 Pro for planning, 2.0 Flash for bulk tasks, and Llama 3.3 for fallback) and Razorpay integration.",
+      decisions: [
+        {
+          title: "3-Pass Quality Control Review Pipeline",
+          description: "Built an automated review and scoring system that evaluates generated deliverables 3 times and runs auto-fixes before any client outreach is sent."
+        },
+        {
+          title: "Strict Lead Filtering Guard", description: "Implemented an email-first validation layer that discards lead prospects missing contact channels prior to running expensive LLM generation scripts."
+        }
+      ],
+      whatWentWrong: [
+        "Database Locking Exceptions: Concurrent lead-scraping jobs using Playwright triggered database lock errors in SQLite, resolved by configuring write-ahead logging (WAL) journal mode and serialized repository connections."
+      ],
+      whyItMatters: "Showcases production-ready agentic architectures, self-healing scheduling, dependency injection, and payment system integration."
+    }
   }
 ];
