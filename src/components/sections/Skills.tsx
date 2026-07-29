@@ -25,7 +25,7 @@ export default function Skills() {
         {skillGroups.map((group) => (
           <div
             key={group.category}
-            className="flex flex-col bg-white/20 border border-secondary/20 rounded-xl p-6 hover:border-primary/30 transition-all duration-300 shadow-[0_2px_6px_rgba(43,36,32,0.01)]"
+            className="flex flex-col bg-white/20 dark:bg-black/30 border border-secondary/20 dark:border-secondary/15 rounded-xl p-6 hover:border-primary/30 dark:hover:border-primary/50 transition-all duration-300 shadow-[0_2px_6px_rgba(43,36,32,0.01)]"
           >
             {/* Group Category Name */}
             <h3 className="font-heading font-bold text-lg text-foreground mb-4 border-b border-secondary/15 pb-2">
