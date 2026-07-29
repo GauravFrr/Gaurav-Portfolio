@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { cn } from "@/lib/utils";
 
 export default function ThemeToggle() {
   const [theme, setTheme] = useState<"light" | "dark" | null>(null);
@@ -9,7 +8,10 @@ export default function ThemeToggle() {
   useEffect(() => {
     // Read theme class from HTML document on mount
     const isDark = document.documentElement.classList.contains("dark");
-    setTheme(isDark ? "dark" : "light");
+    const frameId = requestAnimationFrame(() => {
+      setTheme(isDark ? "dark" : "light");
+    });
+    return () => cancelAnimationFrame(frameId);
   }, []);
 
   const toggleTheme = () => {

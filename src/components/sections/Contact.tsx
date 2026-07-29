@@ -76,7 +76,7 @@ export default function Contact() {
               </div>
               <h3 className="text-xl font-heading font-bold text-foreground mb-2">Message Sent!</h3>
               <p className="text-sm text-foreground/80 max-w-sm">
-                Thanks for reaching out! I've received your message and will get back to you as soon as possible.
+                Thanks for reaching out! I&apos;ve received your message and will get back to you as soon as possible.
               </p>
             </div>
           ) : (
