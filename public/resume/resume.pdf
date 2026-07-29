@@ -1,0 +1,130 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Length 3231 >>
+stream
+BT
+/F2 28 Tf
+1 0 0 1 50 780 Tm
+(Gaurav) Tj
+/F1 15 Tf
+1 0 0 1 50 752 Tm
+(AI Engineer & Full-Stack Developer) Tj
+/F1 10 Tf
+1 0 0 1 50 730 Tm
+(Email: contact@gauravxd.dev | GitHub: github.com/GauravFrr) Tj
+/F1 10 Tf
+1 0 0 1 50 715 Tm
+(--------------------------------------------------------------------------------------------------------------------------------) Tj
+/F2 12 Tf
+1 0 0 1 50 690 Tm
+(SUMMARY) Tj
+/F1 10 Tf
+1 0 0 1 50 675 Tm
+(Self-taught AI Engineer and full-stack developer with about 3 years of hands-on experience across Python,) Tj
+/F1 10 Tf
+1 0 0 1 50 660 Tm
+(LLM tooling, and modern web stacks. Specializing in RAG systems, LLM memory layers, and AI SaaS.) Tj
+/F2 12 Tf
+1 0 0 1 50 630 Tm
+(PROJECTS) Tj
+/F2 11 Tf
+1 0 0 1 50 610 Tm
+(1. Retryv - Production-Grade RAG System) Tj
+/F1 9 Tf
+1 0 0 1 50 595 Tm
+(   Stack: Python, Gemini API, ChromaDB, BM25+RRF, Streamlit) Tj
+/F1 9 Tf
+1 0 0 1 50 582 Tm
+(   Highlight: Caught a silent data-coverage bug in ChromaDB ingestion that left collections sparsely populated.) Tj
+/F2 11 Tf
+1 0 0 1 50 555 Tm
+(2. MemoryOS - Universal AI Memory Layer) Tj
+/F1 9 Tf
+1 0 0 1 50 540 Tm
+(   Stack: Next.js 15, NestJS, PostgreSQL, pgvector, Redis, BullMQ, Chrome Extension) Tj
+/F1 9 Tf
+1 0 0 1 50 527 Tm
+(   Highlight: Built a context-injection engine that selects and injects relevant memories without bloating context.) Tj
+/F2 11 Tf
+1 0 0 1 50 500 Tm
+(3. Brefly - White-Label Client Reporting SaaS) Tj
+/F1 9 Tf
+1 0 0 1 50 485 Tm
+(   Stack: FastAPI, Next.js 15, Supabase, Redis, WeasyPrint, Gemini API, Razorpay, Stripe) Tj
+/F1 9 Tf
+1 0 0 1 50 472 Tm
+(   Highlight: Designed dual payment-provider integrations \(Razorpay & Stripe\) for regional/international markets.) Tj
+/F2 11 Tf
+1 0 0 1 50 445 Tm
+(4. Nyxleads - AI Lead Scraping CLI Tool) Tj
+/F1 9 Tf
+1 0 0 1 50 430 Tm
+(   Stack: Python, CLI, AI Scoring, License Key Auth, Hardware Fingerprinting) Tj
+/F1 9 Tf
+1 0 0 1 50 417 Tm
+(   Highlight: Implemented license-key validation and hardware fingerprinting to bind licenses to a single device.) Tj
+/F2 12 Tf
+1 0 0 1 50 385 Tm
+(EXPERIENCE) Tj
+/F1 10 Tf
+1 0 0 1 50 365 Tm
+(- Oasis Infobyte \(OIBSIP\) - Web Development Intern \(July 2026 - Present\)) Tj
+/F1 9 Tf
+1 0 0 1 50 352 Tm
+(  Designing clean interface layouts, custom styling, accessibility controls, and smooth animations.) Tj
+/F1 10 Tf
+1 0 0 1 50 330 Tm
+(- Cognifyz IT Solutions - Python Development Intern \(July - August 2026\)) Tj
+/F1 9 Tf
+1 0 0 1 50 317 Tm
+(  Developed automated Python web scrapers to gather directory listings and data cleaning utilities.) Tj
+/F1 10 Tf
+1 0 0 1 50 295 Tm
+(- CodeAlpha - Web Development Intern \(June - July 2026\)) Tj
+/F1 9 Tf
+1 0 0 1 50 282 Tm
+(  Built responsive user landing pages using HTML, CSS, and JS with interactive widgets and forms.) Tj
+/F2 12 Tf
+1 0 0 1 50 250 Tm
+(EDUCATION) Tj
+/F1 10 Tf
+1 0 0 1 50 230 Tm
+(Bachelor of Computer Applications \(BCA\) - Starting October 2026) Tj
+/F1 10 Tf
+1 0 0 1 50 200 Tm
+(--------------------------------------------------------------------------------------------------------------------------------) Tj
+/F1 8 Tf
+1 0 0 1 50 185 Tm
+(Note: This is a placeholder resume. You can replace this PDF file at public/resume/resume.pdf at any time.) Tj
+ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000000321 00000 n 
+0000000396 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+3679
+%%EOF
