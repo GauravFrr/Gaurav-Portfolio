@@ -44,9 +44,9 @@ export default function ThemeToggle() {
           <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v2.25m0 13.5V21M4.929 4.929l1.591 1.591m10.96 10.96l1.591 1.591M3 12h2.25m13.5 0H21m-2.234-7.071l-1.591 1.591M6.52 17.48l-1.591 1.591M12 7.5a4.5 4.5 0 110 9 4.5 4.5 0 010-9z" />
         </svg>
       ) : (
-        // Moon Icon
-        <svg className="w-4 h-4 text-primary" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 16.584a9.006 9.006 0 01-15.085-5.497 9.003 9.003 0 0110.158-10.049A9 9 0 1021.75 16.584z" />
+        // Solid Moon Icon
+        <svg className="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 24 24">
+          <path fillRule="evenodd" d="M9.528 1.718a.75.75 0 01.162.819A8.97 8.97 0 009 6a9 9 0 009 9 8.97 8.97 0 003.463-.69.75.75 0 01.981.98 10.503 10.503 0 01-9.694 6.46c-5.799 0-10.5-4.701-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 01.818.162z" clipRule="evenodd" />
         </svg>
       )}
     </button>
