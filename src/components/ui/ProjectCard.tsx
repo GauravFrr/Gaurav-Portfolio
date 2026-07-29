@@ -95,7 +95,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       {project.caseStudy && (
         <div
           className={cn(
-            "transition-all duration-500 ease-in-out overflow-hidden",
+            "transition-all duration-200 ease-out overflow-hidden",
             isExpanded ? "max-h-[1500px] opacity-100 mt-6 pt-6 border-t border-secondary/20" : "max-h-0 opacity-0"
           )}
         >
